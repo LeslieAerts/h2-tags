@@ -15,8 +15,10 @@ No Characters yet
  
 ## Vehicles
  
-### Phantom Advanced
+### Phantom Advanced (Under development)
  
+ ![](/img/phantom_advanced.png)
+ ![](/img/phantom_advanced_2.png)
 In my vision, the Phantom was supposed to be what it was in Halo 2 E3, Halo 2 and Halo 3 but due to constraints it was never fully realized. My version has:
 
 * Useable rear door
@@ -28,7 +30,7 @@ In my vision, the Phantom was supposed to be what it was in Halo 2 E3, Halo 2 an
 
 ![Phantom Advanced preview](images/phantom-advanced.png)
  
-### Halo 2 Cut Vehicle: Covenant Lightbridge Ship
+### Halo 2 Cut Vehicle: Covenant Lightbridge Ship (Under development)
  
 The covenant lightbridge ship that enables traversal across large chasms due to its deployable lightbridge ship. Requires some scripting
 
@@ -38,8 +40,8 @@ TODO: HSC here
  
 ![Covenant Lightbridge Ship preview](images/lightbridge-ship.png)
  
-### Halo 2 Cut Vehicle: Command Shuttle
- 
+### Halo 2 Cut Vehicle: Command Shuttle (Under development)
+  ![](/img/command_shuttle.png)
 The covenant command shuttle seen in storyboards and blockouts, fully re-imagined as a full vehicle with deployable (scripted) drop pods.
 
 ```

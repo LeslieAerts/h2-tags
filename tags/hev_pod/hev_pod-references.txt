@@ -1,0 +1,80 @@
+Tag references for objects\vehicles_custom\hev_pod\hev_pod.vehicle
+62 tags, 9 levels deep. A tag already listed above is marked "(see above)" instead of being expanded again.
+
+objects\vehicles_custom\hev_pod\hev_pod.vehicle
+  objects\vehicles_custom\hev_pod\hev.model
+    objects\vehicles_custom\hev_pod\hev.collision_model
+    effects\objects\vehicles\insertion_pod\hev_pod_door_ejection.effect
+      objects\vehicles_custom\hev_pod\hev_door\hev_door.crate
+        objects\cinematics\human\hev\hev_door\hev_door.model
+          objects\cinematics\human\hev\hev_door\hev_door.collision_model
+          objects\cinematics\human\hev\hev_door\hev_door.render_model
+            objects\cinematics\human\hev\shaders\hev_pod.shader
+              objects\bitmaps\reflection_maps\masterchief_armor.bitmap
+              objects\cinematics\human\hev\bitmaps\hev.bitmap
+              objects\cinematics\human\hev\bitmaps\hev_bump.bitmap
+              scenarios\bitmaps\detail_maps\metal\metal_crackle.bitmap
+              shaders\shader_templates\opaque\tex_bump_shiny.shader_template
+                shaders\default_bitmaps\bitmaps\default_detail.bitmap
+                shaders\default_bitmaps\bitmaps\default_vector.bitmap
+                shaders\default_bitmaps\bitmaps\gray_50_percent.bitmap
+                shaders\shader_passes\fog\fog_planar.shader_pass
+                  rasterizer\vertex_shaders_dx9\fog_planar.vertex_shader
+                shaders\shader_passes\light_response\default_light_combined_tangentspace_specular_sphere.shader_pass
+                  shaders\default_bitmaps\bitmaps\default_vector.bitmap (see above)
+                  rasterizer\vertex_shaders_dx9\stencil_light_specular_tangentspace_sphere.vertex_shader
+                shaders\shader_passes\light_response\default_light_combined_tex.shader_pass
+                  shaders\default_bitmaps\bitmaps\default_additive.bitmap
+                  shaders\default_bitmaps\bitmaps\default_vector.bitmap (see above)
+                  rasterizer\vertex_shaders_dx9\lightaccum_frustum_no_specular_gel_tex.vertex_shader
+                  rasterizer\vertex_shaders_dx9\lightaccum_frustum_no_specular_tex.vertex_shader
+                  rasterizer\vertex_shaders_dx9\lightaccum_frustum_tex.vertex_shader
+                  rasterizer\vertex_shaders_dx9\lightaccum_frustum_tex_first_person.vertex_shader
+                  rasterizer\vertex_shaders_dx9\lightaccum_sphere_diffuse_tex.vertex_shader
+                shaders\shader_passes\lightmap\lightmap_tex_detail_shiny.shader_pass
+                  shaders\default_bitmaps\bitmaps\default_additive.bitmap (see above)
+                  shaders\default_bitmaps\bitmaps\default_vector.bitmap (see above)
+                  rasterizer\vertex_shaders_dx9\lightmap_dynamic_tex_detail.vertex_shader
+                  rasterizer\vertex_shaders_dx9\lightmap_perpixel_tex_detail.vertex_shader
+                  rasterizer\vertex_shaders_dx9\lightmap_pervertex_tex_detail.vertex_shader
+                shaders\shader_passes\shadow\shadow_apply_combined.shader_pass
+                  rasterizer\linear_corner_fade.bitmap
+                  rasterizer\vertex_shaders_dx9\shadow_buffer_application_1tap.vertex_shader
+                  rasterizer\vertex_shaders_dx9\shadow_buffer_application_3tap.vertex_shader
+                  rasterizer\vertex_shaders_dx9\shadow_buffer_application_cinematic.vertex_shader
+                  rasterizer\vertex_shaders_dx9\shadow_buffer_application_lightmap.vertex_shader
+                  rasterizer\vertex_shaders_dx9\stencil_texture.vertex_shader
+                shaders\shader_passes\shadow\shadow_generate.shader_pass
+                  shaders\default_bitmaps\bitmaps\default_vector.bitmap (see above)
+                  rasterizer\vertex_shaders_dx9\shadow_buffer_generation.vertex_shader
+                  rasterizer\vertex_shaders_dx9\shadow_buffer_generation_cinematic.vertex_shader
+                  rasterizer\vertex_shaders_dx9\shadow_buffer_generation_lightmap.vertex_shader
+          objects\cinematics\human\hev\hev_door\hev_door.physics_model
+      sound\ambience\device_machines\insertion_pods\pod_door.sound
+        sound_remastered\ambience\device_machines\insertion_pods\pod_door.sound
+    objects\vehicles_custom\hev_pod\hev.model_animation_graph
+    objects\vehicles_custom\hev_pod\hev_pod.render_model
+      objects\vehicles_custom\hev_pod\shaders\hev_pod.shader
+        objects\bitmaps\reflection_maps\masterchief_armor.bitmap (see above)
+        objects\cinematics\human\hev\bitmaps\hev.bitmap (see above)
+        objects\cinematics\human\hev\bitmaps\hev_bump.bitmap (see above)
+        scenarios\bitmaps\detail_maps\metal\metal_crackle.bitmap (see above)
+        shaders\shader_templates\opaque\tex_bump_shiny.shader_template (see above)
+      objects\vehicles_custom\hev_pod\shaders\hev_pod_glass.shader
+        objects\bitmaps\reflection_maps\vehicle_glass.bitmap
+        objects\cinematics\human\hev\bitmaps\hev.bitmap (see above)
+        shaders\shader_templates\transparent\two_add_env_illum.shader_template
+          shaders\shader_passes\transparent\default_transparent_add.shader_pass
+            shaders\default_bitmaps\bitmaps\default_additive.bitmap (see above)
+            shaders\default_bitmaps\bitmaps\default_additive_cube_map.bitmap
+            shaders\default_bitmaps\bitmaps\default_multiplicative.bitmap
+            rasterizer\vertex_shaders_dx9\transparent_generic_reflection.vertex_shader
+      objects\vehicles_custom\hev_pod\shaders\texture_camera.shader
+        shaders\default_bitmaps\bitmaps\color_white.bitmap
+        shaders\shader_templates\texture_camera\texture_camera.shader_template
+          shaders\default_bitmaps\bitmaps\color_white.bitmap (see above)
+          shaders\shader_passes\fog\fog_planar.shader_pass (see above)
+          shaders\shader_passes\texture_camera\texture_camera.shader_pass
+            shaders\default_bitmaps\bitmaps\color_white.bitmap (see above)
+            rasterizer\vertex_shaders_dx9\texture_camera.vertex_shader
+    objects\vehicles_custom\hev_pod\hev.physics_model
