@@ -27,8 +27,6 @@ In my vision, the Phantom was supposed to be what it was in Halo 2 E3, Halo 2 an
 * Manned turrets that open via sides
 * Landing gear
 * TODO: Full open-able hatches on the side, like Halo 3.
-
-![Phantom Advanced preview](images/phantom-advanced.png)
  
 ### Halo 2 Cut Vehicle: Covenant Lightbridge Ship (Under development)
  
@@ -38,7 +36,7 @@ The covenant lightbridge ship that enables traversal across large chasms due to 
 TODO: HSC here
 ```
  
-![Covenant Lightbridge Ship preview](images/lightbridge-ship.png)
+![Covenant Lightbridge Ship preview](img/lightbridge-ship.png)
  
 ### Halo 2 Cut Vehicle: Command Shuttle (Under development)
   ![](/img/command_shuttle.png)
@@ -52,6 +50,9 @@ TODO: HSC here
 ![Command Shuttle preview](images/command-shuttle.png)
  
 ### Gameplay Enabled HEV ODST Pod
+
+![](img/odst_0.png) 
+![](img/odst_1.png) 
  
 The ODST drop pod (HEV), now fully set up for use in gameplay. Below an example script on how to have it be placed.
 
@@ -86,8 +87,7 @@ Please follow the tutorial on C20.
 )
 ```
  
-![](images/odst_0.png) 
-![](images/odst_1.png) 
+
 
 ---
  
