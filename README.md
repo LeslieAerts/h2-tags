@@ -53,10 +53,37 @@ TODO: HSC here
  
 ### Gameplay Enabled HEV ODST Pod
  
-The ODST drop pod (HEV), now fully set up for use in gameplay.
+The ODST drop pod (HEV), now fully set up for use in gameplay. Below an example script on how to have it be placed.
+
+Please follow the tutorial on C20.
 
 ```
-TODO: HSC here
+(script dormant script_pod1
+	(object_create pod1)
+
+	(device_set_position pod1 1.0)
+	(sleep (random_range 25 30))
+
+	(ai_place drop_pods/1)
+
+	(objects_attach pod1 "pod_attach" (ai_vehicle_get drop_pods/1) "pod_attach")
+	(effect_new_on_object_marker effects\cinematics\05\hev_retro_rocket_short (ai_vehicle_get drop_pods/1) "retro_rocket")
+
+	(sleep_until (>= (device_get_position pod1) 1) 1)
+	(effect_new_on_object_marker pod_effect (ai_vehicle_get drop_pods/1) "hev_base")
+
+	(sleep (random_range 20 40))
+
+	(effect_new_on_object_marker effects\cinematics\05\hev_door_release (ai_vehicle_get drop_pods/1) "door_release")
+	(sleep 30)
+	(object_damage_damage_section (ai_vehicle_get drop_pods/1) "door" 500)
+
+	(sleep (random_range 20 40))
+	(ai_vehicle_exit drop_pods/1)
+
+	(objects_detach pod1 (ai_vehicle_get drop_pods/1))
+	(object_destroy pod1)
+)
 ```
  
 ![HEV ODST Pod preview](images/hev-odst-pod.png)
