@@ -1,18 +1,11 @@
 # Halo 2 Tags
  
-A collection of my own created Halo 2 tags.
+A collection of the Halo 2 tags that I have created that are free to use.
 
-If you like my work, consider donating at https://ko-fi.com/lalsy
+If you like my work though, please consider a coffee at https://ko-fi.com/lalsy !
  
 ---
- 
-## Characters
- 
-No Characters yet 
-![Characters preview](images/characters.png)
- 
----
- 
+  
 ## Vehicles
  
 ### Phantom Advanced (Under development)
