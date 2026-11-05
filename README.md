@@ -86,8 +86,9 @@ Please follow the tutorial on C20.
 )
 ```
  
-![HEV ODST Pod preview](images/hev-odst-pod.png)
- 
+![](images/odst_0.png) 
+![](images/odst_1.png) 
+
 ---
  
 ## Usage
