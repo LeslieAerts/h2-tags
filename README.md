@@ -1,18 +1,11 @@
 # Halo 2 Tags
  
-A collection of my own created Halo 2 tags.
+A collection of the Halo 2 tags that I have created that are free to use.
 
-If you like my work, consider donating at https://ko-fi.com/lalsy
+If you like my work though, please consider a coffee at https://ko-fi.com/lalsy !
  
 ---
- 
-## Characters
- 
-No Characters yet 
-![Characters preview](images/characters.png)
- 
----
- 
+  
 ## Vehicles
  
 ### Phantom Advanced (Under development)
@@ -27,8 +20,6 @@ In my vision, the Phantom was supposed to be what it was in Halo 2 E3, Halo 2 an
 * Manned turrets that open via sides
 * Landing gear
 * TODO: Full open-able hatches on the side, like Halo 3.
-
-![Phantom Advanced preview](images/phantom-advanced.png)
  
 ### Halo 2 Cut Vehicle: Covenant Lightbridge Ship (Under development)
  
@@ -38,7 +29,7 @@ The covenant lightbridge ship that enables traversal across large chasms due to 
 TODO: HSC here
 ```
  
-![Covenant Lightbridge Ship preview](images/lightbridge-ship.png)
+![Covenant Lightbridge Ship preview](img/lightbridge-ship.png)
  
 ### Halo 2 Cut Vehicle: Command Shuttle (Under development)
   ![](/img/command_shuttle.png)
@@ -52,6 +43,9 @@ TODO: HSC here
 ![Command Shuttle preview](images/command-shuttle.png)
  
 ### Gameplay Enabled HEV ODST Pod
+
+![](img/odst_0.png) 
+![](img/odst_1.png) 
  
 The ODST drop pod (HEV), now fully set up for use in gameplay. Below an example script on how to have it be placed.
 
@@ -86,8 +80,7 @@ Please follow the tutorial on C20.
 )
 ```
  
-![](images/odst_0.png) 
-![](images/odst_1.png) 
+
 
 ---
  
